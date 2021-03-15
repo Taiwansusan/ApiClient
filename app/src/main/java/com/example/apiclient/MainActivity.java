@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity implements ItemListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+//        getActionBar().setTitle(getString(R.string.app_name));
 
         recyclerView = findViewById(R.id.recycler);
         recyclerView.setLayoutManager(new LinearLayoutManager(this,
